@@ -17,6 +17,7 @@ public class PracticeProgramms_file {
         int age = 20;                          // store age
         if (age > 18) {                        // check condition
             System.out.println("You can vote!");
+            System.out.println("This file is for Practing purpose");
         }
 
         Scanner input = new Scanner(System.in);
@@ -29,7 +30,7 @@ public class PracticeProgramms_file {
         else if (userAge <= 20) {
         System.out.println("You are young or A teen");
         }
-        System.out.println("This file is for Practing purpose");
+        
         
         input.close();
     }
