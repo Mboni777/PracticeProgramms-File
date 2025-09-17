@@ -29,6 +29,8 @@ public class PracticeProgramms_file {
         else if (userAge <= 20) {
         System.out.println("You are young or A teen");
         }
+        System.out.println("This file is for Practing purpose");
+        
         input.close();
     }
 }
